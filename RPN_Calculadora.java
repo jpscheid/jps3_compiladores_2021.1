@@ -6,7 +6,7 @@ import java.util.*;
 public class RPN_Calculadora {
 	public static void main (String args[]) throws Exception {
 		
-		//File f = new File("\\Calc1.txt"); Modificar o caminho do arquivo exemplo para testar o arquivo.
+		//File f = new File("\\Calc1.txt"); Modificar o caminho do arquivo exemplo para testar o código.
 		
 		BufferedReader br = new BufferedReader(new FileReader(f));
 		Stack<Double> st = new Stack<Double>();
